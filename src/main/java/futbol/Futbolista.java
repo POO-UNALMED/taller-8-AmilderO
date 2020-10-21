@@ -8,6 +8,12 @@ public class Futbolista implements Comparable {
 	private final String posicion;
 	
 	// Constructor.
+<<<<<<< HEAD
+=======
+	public Futbolista(){
+		this("Maradone", 30, "Delantero");
+	}
+>>>>>>> parent of 266bc19... Test 3
 	public Futbolista(String nombre, int edad, String posicion){
 		this.nombre = nombre;
 		this.edad = edad;
