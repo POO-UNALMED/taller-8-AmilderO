@@ -8,13 +8,13 @@ public class Futbolista implements Comparable {
 	private final String posicion;
 	
 	// Constructor.
-	public Futbolista(){
-		this("Maradona", 30, "delantero");
-	}
 	public Futbolista(String nombre, int edad, String posicion){
 		this.nombre = nombre;
 		this.edad = edad;
 		this.posicion = posicion;
+	}
+	public Futbolista(){
+		this("Maradona", 30, "delantero");
 	}
 	
 	// Getters.
