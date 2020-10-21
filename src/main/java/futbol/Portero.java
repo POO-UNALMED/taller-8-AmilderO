@@ -17,9 +17,6 @@ public class Portero extends Futbolista {
     public int compareTo(Portero o) {
         return o.golesRecibidos - golesRecibidos;
     }
-    public boolean jugarConLasManos() {
-        return true;
-    }
     public String toString(){
         return "El futbolista "+getNombre()+" tiene "+getEdad()+ ", y juega de "+getPosicion()+" con el dorsal "+dorsal+". Le han marcado "+golesRecibidos;
     }

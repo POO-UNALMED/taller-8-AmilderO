@@ -38,13 +38,23 @@ public class Futbolista implements Comparable {
     
     // Methods.
     public boolean equals(Futbolista f){
-        return this == f;
+    	if(this == f) {
+    		return true;
+    	}
+    	else {
+    		return false;
+    	}
     }
     public String toString(){
-        return ("El futbolista "+nombre+" tiene "+edad+ ", y juega de "+posicion);
+        return "El futbolista "+nombre+" tiene "+edad+", y juega de "+posicion;
     }
     public boolean jugarConLasManos(){
-        return true;
+        if(this.getPosicion() == "portero") {
+        	return true;
+        }
+        else {
+        	return false;
+        }
     }
     public int compareTo(Object o){
         return 0;
