@@ -9,7 +9,7 @@ public class Futbolista implements Comparable {
 	
 	// Constructor.
 	public Futbolista(){
-		this("Maradone", 30, "Delantero");
+		this("Maradona", 30, "delantero");
 	}
 	public Futbolista(String nombre, int edad, String posicion){
 		this.nombre = nombre;
