@@ -22,6 +22,9 @@ public class Jugador extends Futbolista {
     public int compareTo(Futbolista o) {
         return super.getEdad() - o.getEdad();
     }
+    public boolean jugarConLasManos(){
+        return false;
+    }
     public String toString(){
         return "El futbolista "+this.getNombre()+" tiene "+this.getEdad()+ ", y juega de "+this.getPosicion()+" con el dorsal "+dorsal+ ". Ha marcado "+golesMarcados;
     }
